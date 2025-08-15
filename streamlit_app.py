@@ -129,6 +129,7 @@ df = pd.DataFrame(sheet_input.get_all_records())
 # 새로고침 버튼 클릭 시 캐시 삭제 → 최신 데이터 반영
 if st.button("새로고침 🔄"):
     st.cache_data.clear()
+    st.balloons
 
 # 피드백 컬럼 데이터 화면에 표시
 st.write(df['피드백'])
