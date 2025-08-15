@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("🎈 파이콘 튜토리얼")
-st.info ("안녕하세요, 파이콘 튜토리얼 예제입니다.")
+st.info ("안녕하세요, 파이콘 튜토리얼 예제입니다!!!.")
 
 
 st.subheader("첫 번째 앱")
